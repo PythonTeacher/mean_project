@@ -1,0 +1,23 @@
+[
+	{
+		"id":0,
+		"title":"Why So Lonely",
+		"singer":"원더걸스",
+		"members":["유빈", "예은", "선미", "혜림"],
+		"year":2016
+	},
+	{
+		"id":1,
+		"title":"Day Day",
+		"singer":"BewhY",
+		"members":[],
+		"year":2016
+	},
+	{
+		"id":2,
+		"title":"너 그리고 나",
+		"singer":"여자친구",
+		"members":["소원", "예린", "은하", "유주", "신비", "엄지"],
+		"year":2015
+	}
+]
