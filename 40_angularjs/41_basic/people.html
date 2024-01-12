@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app="app">
+    <head>
+        <title>Angular Example</title>
+    </head>
+    <body ng-controller="MainCtrl">
+        <div>
+            Name: {{ person.name }}, Job: {{ person.job }}
+        </div>
+        <div ng-repeat="person in people">
+            <div>{{ $index + 1 }}. Name: {{ person.name }}, Job: {{ person.job }}</div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="people.js"></script>
+    </body>
+</html>

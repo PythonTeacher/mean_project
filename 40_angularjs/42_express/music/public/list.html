@@ -1,0 +1,25 @@
+<h2>Music List</h2>
+<table class="table table-striped">
+    <thead>
+        <th>Title</th>
+        <th>Singer</th>
+        <th>Year</th>
+        <th>Members</th>
+        <th></th>
+    </thead>
+    <tbody>
+        <tr id="{{music._id}}" ng-repeat="music in data">
+        <!--<tr ng-repeat="music in data">-->
+            <td>{{music.title}}</td>
+            <td>{{music.singer}}</td>
+            <td>{{music.year}}</td>
+            <td>{{music.members}}</td>
+            <td>
+                <a href="#update/{{music._id}}">
+                    <button class="btn btn-primary">Update</button>
+                </a>
+                <button type="button" class="btn btn-warning" ng-click="deleteMusic(music._id)">Delete</button>
+            </td>
+        </tr> 
+    </tbody>
+</table>
